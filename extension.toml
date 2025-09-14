@@ -1,5 +1,5 @@
-id = "zed-ctags"
-name = "Zed Universal ctags support"
+id = "ctags"
+name = "Universal Ctags LSP support"
 version = "0.0.1"
 schema_version = 1
 authors = ["Mateusz Mazur <mateusz.mazur@hey.com>"]
