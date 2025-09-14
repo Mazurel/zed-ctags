@@ -1,4 +1,4 @@
-# Ctags LSP extensions for Zed
+# Ctags LSP extension for Zed
 
 Add ctags LSP server to your Zed editor for enhanced code navigation and symbol lookup.
 Ctags generates an index of source code symbols (functions, classes, variables) to enable "go to definition" and symbol search features.
