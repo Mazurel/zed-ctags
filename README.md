@@ -16,7 +16,15 @@ You can enable this server by referring to it as `ctags-lsp` in your Zed configu
 
 ### 1. Install the Extension
 
-(TODO: This is not ready yet!) Install this extension from the Zed extensions marketplace by searching for "ctags-lsp".
+> (TODO: This is not ready yet!) Install this extension from the Zed extensions marketplace by searching for "ctags-lsp".
+
+To install this extension locally, you can first clone this repository, and then load it using `zed: install dev extension` action:
+
+```shell
+git clone https://github.com/mazurel/zed-ctags.git
+```
+
+TIP: You can see installation status by running `zed: open log`.
 
 ### 2. Install Ctags
 
