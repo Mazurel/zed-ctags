@@ -29,11 +29,13 @@ To install ctags, please refer to the official documentation: https://github.com
 To enable `ctags-lsp` LSP for `C` language by default, add the following to your `settings.json`:
 
 ```json
+{
   "languages": {
     "C": {
       "language_servers": ["ctags-lsp"]
     }
-  },
+  }
+}
 ```
 
 You can also enable `ctags-lsp` for any other ctags-supported language by adding it to the `languages` configuration in your `settings.json`:
