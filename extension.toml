@@ -1,6 +1,6 @@
 id = "ctags"
 name = "Universal Ctags LSP support"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Mateusz Mazur <mateusz.mazur@hey.com>"]
 description = "Add Universal Ctags support to the Zed editor"
