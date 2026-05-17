@@ -4,6 +4,7 @@ type ErrorMessage = String;
 
 const CTAGS_LSP_FOLDER_NAME: &str = "ctags-lsp-project";
 const CTAGS_LSP_BINARY_NAME: &str = "ctags-lsp";
+const CTAGS_LSP_VERSION: &str = "v0.11.0";
 
 struct CtagsLspBinary {
     url: String,
@@ -37,8 +38,8 @@ fn get_ctags_lsp_binary_url() -> Result<CtagsLspBinary, ErrorMessage> {
         (os, arch) => Err(format!("Unsupported platform: {:?} {:?}", os, arch).to_string())?,
     };
     let url = format!(
-        "https://github.com/netmute/ctags-lsp/releases/download/v0.8.1/{}",
-        tarball
+        "https://github.com/netmute/ctags-lsp/releases/download/{}/{}",
+        CTAGS_LSP_VERSION, tarball
     );
     println!("Downloading ctags lsp from {}", url);
 
